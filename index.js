@@ -127,8 +127,35 @@ console.log(Boolean(" "));
 console.log(Boolean("hOLA"));
 console.log(Boolean("0"));
 
+var user;
+user = "daniel";
 
+var user = 'soto';
 
+let username = "dan";
 
+const sum = () => {
+    const sumTotal = 10;
+    return sumTotal;
+}
 
+const age = 23;
+// PascalCase // Components in React // Class Javascript 
+const AgeFrom = 23;
+// camelCase // Variables / Functions in Javascript
+const ageFrom = 22;
+// snake_case // Variables / Functions
+
+// kebab-case // Variables / Functions
+
+let x = 100;
+
+const car = {
+    price: 15000,
+    color: "red"
+}
+
+car.color = "blue";
+
+console.log(car);
 
