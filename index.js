@@ -286,4 +286,80 @@ for (let key in person) {
 
 const keysPersonValue = Object.keys(person);
 
-console.log(keysPersonValue)
+console.log(keysPersonValue);
+
+const note = {
+    id: 1,
+    title: "Title",
+    body: "Body",
+    date: "2020-05-05",
+}
+
+let date = new Date();
+// desscructure properties in to variables
+const {id, title, body, date: noteDate} = note;
+
+console.log(noteDate);
+
+let array1 = [];
+// literal object
+const dog = {}
+// consturctor Object
+
+const cat = new Object();
+
+// stactic method
+const horse = Object.create({ });
+
+const dog1 =dog ;
+const dog2 = dog;
+
+console.log(dog1 === {});
+
+
+const original = {
+    hello : 'world'
+}
+
+// const clone = Object.assign({}, original);
+
+// console.log(clone === original)
+
+// spread operator
+
+const clone = { ...original, hola: 'mundo' };
+
+console.log(clone)
+
+
+function Boat(name, color) {
+    this.name = name;
+    this.color = color || "non color";
+    this.created = new Date();
+    
+    this.horn = function () {
+        console.log(this.name);
+    }
+}
+
+const sally = new Boat("Sally", "blue");
+const molly = new Boat("Molly")
+sally.horn();
+
+console.log(sally)
+console.log(molly)
+
+
+
+
+class Person {
+    constructor(name, surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+}
+
+const newPerson = new Person("Daniel", "Soto");
+
+
+console.log(newPerson)
