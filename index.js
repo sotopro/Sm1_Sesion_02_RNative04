@@ -158,4 +158,90 @@ const car = {
 car.color = "blue";
 
 console.log(car);
+// Arithmetic Operators
+// addition +
+var sum1 = 5.7;
+var sum2 = 10.1;
+var sumTotal = sum1 + sum2;
+console.log(sumTotal);
 
+// subtraction -
+console.log(10-1);
+
+// multiplication *
+console.log(10*1);
+
+const price = 20.50;
+const taxRate = 0.082
+
+// calculate the tax
+
+let totalPrice = price + (price * taxRate);
+let fixedPrice = totalPrice.toFixed(2);
+
+console.log("Total:", fixedPrice)
+
+// division /
+console.log(10/2);
+
+// modulo %
+console.log("modulo % 5", 12 % 5);
+console.log("resto % 5", -12 % 5);
+
+// exponentiation **
+// increment ++
+let increment = 7;
+let prefix = ++increment;
+console.log(prefix)
+// decrement --
+let position = 7;
+let postfix = position--;
+console.log(postfix)
+
+// sufijo
+let aa = 7;
+let bb = aa--;
+
+console.log(bb)
+console.log(aa)
+
+// prefijo
+let cc = 3;
+let dd = --cc;
+console.log(cc)
+
+console.log(dd)
+
+
+
+
+// Assignment Operators
+// Assignment =
+// Addition +=
+let carPrice = 15000;
+
+carPrice += 1000;
+
+console.log(carPrice)
+// Subtraction -=
+// Multiplication *=
+// Division /=
+// Modulo %=
+// Exponentiation **=
+
+// first multiply , then add
+
+console.log(10 + 3 * 5);
+
+// first add , then multiply
+console.log((10 + 3) * 5);
+
+// level of precedence
+// Parentheses ()
+// Increment ++
+// Decrement --
+// Exponentiation **
+// Multiplication *
+// Division /
+// Addition +
+// Subtraction -
