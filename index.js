@@ -1,62 +1,99 @@
-let t = 16; // t is a number
-let t = "Teresa" // t is a string
-let t = true // t is a boolean
-let t; // t is a undefined
-let t = null // t is a null
-let t = {} // t is a object
-let t = [] // t is a array
+// let t = 16; // t is a number
+// let t = "Teresa" // t is a string
+// let t = true // t is a boolean
+// let t; // t is a undefined
+// let t = null // t is a null
+// let t = {} // t is a object
+// let t = [] // t is a array
 
-// numbers
+// // numbers
 
-let num1 = 93;
-let num2 = 93.00;
-let num3 = 977e8; // 977000000
-let num4 = 977e-8; // 0.000000977
-let num5 = 999999999999999999; // 999999999999999999
-let num6 = 9999999999999999999; // 1000000000000000000;
+// let num1 = 93;
+// let num2 = 93.00;
+// let num3 = 977e8; // 977000000
+// let num4 = 977e-8; // 0.000000977
+// let num5 = 999999999999999999; // 999999999999999999
+// let num6 = 9999999999999999999; // 1000000000000000000;
 
-let num7 = 5 / 0 // Infinity 1.797693134862315E+308
-let num8 = -5 / 0 // -Infinity; -1.797693134862315E+308
+// let num7 = 5 / 0 // Infinity 1.797693134862315E+308
+// let num8 = -5 / 0 // -Infinity; -1.797693134862315E+308
 
-let x = 20 / "fish" // NaN 
+// let x = 20 / "fish" // NaN 
 
-// strings
+// // strings
 
-let singleQuote = 'I\'m a single quote';
-let doubleQuote = "I'm a double quote";
+// let singleQuote = 'I\'m a single quote';
+// let doubleQuote = "I'm a double quote";
 
-// boolean
+// // boolean
 
-let y = 500 > 10; // true
+// let y = 500 > 10; // true
 
-let z = 4 < 2; // false
+// let z = 4 < 2; // false
 
-5 == 5 // true
-500 = 400 // false
+// 5 == 5 // true
+// 500 = 400 // false
 
-"1" == 1 // true
-"1" === 1 // false
-let isStudent = true;
+// "1" == 1 // true
+// "1" === 1 // false
+// let isStudent = true;
 
-// Arrays
+// // Arrays
 
-let arr = ["APPLE", "pear", "orange"];
-let arr1 = [1, 2, 3, 4, 5];
-let arr2 = [false,true, {number: 1}];
+// let arr = ["APPLE", "pear", "orange"];
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [false,true, {number: 1}];
 
-// Objects
-// name: value pairs
-let obj = {
-    name: "Teresa",
-    age: 23,
-    isStudent: true,
-    "name": "Pedro"
-};
+// // Objects
+// // name: value pairs
+// let obj = {
+//     name: "Teresa",
+//     age: 23,
+//     isStudent: true,
+//     "name": "Pedro"
+// };
 
-let name = 'Surf' + 5 + 3;
+// let name = 'Surf' + 5 + 3;
 
-// Surf53;
+// // Surf53;
 
-let number8 = 5 + 3 + "Surf";
+// let number8 = 5 + 3 + "Surf";
 
-// 8Surf;
+// // 8Surf;
+let name = 'Daniel'
+console.log('Hola, ' + name);
+console.log("Hola name");
+console.log(`Hola, ${name}`);
+
+let poem = "The wide Ocean";
+const author = "Pablo Neruda";
+
+const favesPoemLiteral = `My favorite poem is ${poem} by ${author}`;
+const favesPoem = poem + " by " + author;
+
+console.log(favesPoemLiteral);
+console.log(favesPoem);
+
+const stringPrimitive = "dog cat fish";
+
+
+console.log(typeof stringPrimitive);
+
+const stringObject = new String("I'm a string");
+console.log(typeof stringObject);
+
+
+console.log(stringPrimitive[0]); // ["I", "'", "m" , "a"  , "s", tring]
+console.log(stringPrimitive.charAt(0));
+console.log(stringPrimitive.indexOf('are'));
+console.log(stringPrimitive.lastIndexOf('a'));
+console.log(stringPrimitive.slice(8, 11));
+console.log(stringPrimitive.length);
+console.log(stringPrimitive.toUpperCase());
+console.log(stringPrimitive.toLowerCase());
+console.log(stringPrimitive.split("-", 2))
+console.log(stringPrimitive.trim());
+
+const newString = stringPrimitive.replace(/dog/gi, 'Eagle');
+
+console.log(newString)
