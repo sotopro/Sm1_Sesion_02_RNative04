@@ -363,3 +363,14 @@ const newPerson = new Person("Daniel", "Soto");
 
 
 console.log(newPerson)
+
+
+let myObjectLiteral = {
+    suma: (xy,yy) => {
+        let result = xy + yy;
+        console.log(`El resultado de la suma de ${xy} + ${yy} = ${result}`)
+    }
+}
+
+myObjectLiteral.suma(5, 5);
+
