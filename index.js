@@ -97,3 +97,38 @@ console.log(stringPrimitive.trim());
 const newString = stringPrimitive.replace(/dog/gi, 'Eagle');
 
 console.log(newString)
+
+// implicit conversion
+// substraction
+
+console.log("15" - "10" );
+// Modulo
+
+console.log("15" % "10");
+
+// concatenation
+
+console.log("15" + "10");
+const numberExample= 49;
+const stringValue = String(numberExample);
+console.log(true)
+console.log(numberExample.toString());
+console.log(typeof stringValue)
+console.log(typeof  numberExample)
+
+const value = false;
+console.log(Number(value));
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean(null));
+console.log(Boolean(2000));
+console.log(Boolean(" "));
+console.log(Boolean("hOLA"));
+console.log(Boolean("0"));
+
+
+
+
+
+
